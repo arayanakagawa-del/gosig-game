@@ -1,22 +1,23 @@
 #mobileControls {
-  position: absolute;
-  left: 10px;
-  bottom: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   display: flex;
-  gap: 10px;
-  z-index: 1000;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+  pointer-events: none;
 }
 
 #mobileControls button {
-  width: 80px;
-  height: 80px;
-  font-size: 18px;
-  font-weight: bold;
-  border-radius: 15px;
-  border: none;
-  color: white;
-  opacity: 0.8;
+  width: 90px;
+  height: 90px;
+  font-size: 20px;
+  border-radius: 50%;
+  pointer-events: auto;
 }
+
 
 #jumpBtn {
   background: #3b82f6;
