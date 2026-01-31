@@ -1,20 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja" translate="no">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="google" content="notranslate">
   <title>GOSIG GOLDEN Runner</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>🐕 GOSIG GOLDEN Runner</h1>
+
+<h1>🐕 GOSIG GOLDEN Runner</h1>
 <div id="score">Score: 0</div>
 
-  <div id="game">
-  <div id="dog"></div>
-  <div id="cactus"></div>
-  <div id="bird"></div>
-</div>
+<div id="game">
+  <div id="dog">
+    <div id="duckEnergyText">100</div>
+  </div>
 
-  <p>Press SPACE to jump</p>
+  <div id="cactus"></div>
+  <div id="cactus2"></div>
+  <div id="bird"></div>
+  <div id="bird2"></div>
+</div>
+<!-- 📱 スマホ操作 -->
 <div id="mobileControls">
   <button id="jumpBtn">JUMP</button>
   <button id="duckBtn">DUCK</button>
@@ -23,3 +32,4 @@
 <script src="game.js"></script>
 </body>
 </html>
+<p>Press SPACE to jump</p>
